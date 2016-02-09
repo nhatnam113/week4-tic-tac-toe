@@ -1,5 +1,5 @@
 def printBoard(board):
-    print(board['top-L'] + board['top-M] + board['top-R'])
+    print(board['top-L'] + board['top-M'] + board['top-R'])
     print('-+-+-')
     print(board['mid-L'] + board['mid-M'] + board['mid-R'])
     print('-+-+-')
@@ -16,7 +16,7 @@ def printBoard(board):
 def checkWinner(board, player):    
     print('Checking if ' + player + ' is a winner...')
     
-    return (( board['top-L']== player and board['top-M']==         player and board['top-R']== player or board['mid-L']== player and board['mid-M']== player and board['mid-R']== player or board['low-L']== player and board['low-M']== player and board['low-R']== player or board['top-L']== player and board['mid-L']== player and board['low-L']== player or board['top-M']== player and board['mid-M']== player and board['low-M']== player or board['top-R']== player and board['mid-R']== player or board['low-R']== player or board['top-L']== player and board['mid-M']= player and board['low-R']== player or board['top-R']== player and board['mid-M']== player and board['low-L']== player))
+    return (( board['top-L']== player and board['top-M']==         player and board['top-R']== player or board['mid-L']== player and board['mid-M']== player and board['mid-R']== player or board['low-L']== player and board['low-M']== player and board['low-R']== player or board['top-L']== player and board['mid-L']== player and board['low-L']== player or board['top-M']== player and board['mid-M']== player and board['low-M']== player or board['top-R']== player and board['mid-R']== player or board['low-R']== player or board['top-L']== player and board['mid-M']== player and board['low-R']== player or board['top-R']== player and board['mid-M']== player and board['low-L']== player))
     
     # TO DO #################################################################
     # Write code in this function that checks the tic-tac-toe board          #
